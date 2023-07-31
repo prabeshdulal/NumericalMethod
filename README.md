@@ -53,5 +53,5 @@ some algorithm and code of numerical method
 
 6. End
 
-##Horner's Rule:
+## Horner's Rule:
 Horner's rule for polynomial division is an algorithm used to simplify the process of evaluating the polynomial f(x) at a certain value X=X0 by dividing the polynomial into monomials (polynomial of 1st degree). Each monomial involves a maximum of 1 multiplication and 1 addition. The result of 1 monomial is added to the result obtained from  the next monomial.
