@@ -68,3 +68,30 @@ Horner's rule for polynomial division is an algorithm used to simplify the proce
 
 7. print(bn);
 
+
+## Algorithm For Lagrange’s interpolation
+1. start
+2. read the no.of data, say n.
+3. read the value at which value is needed, say y.
+4. read the avilable data points x and f(x).
+5. perform,
+
+
+
+```
+for( i=0; i<n; i++){
+    for(j=0; j<n; j++){
+        if(i!==j)
+          L[i] = L[i] + (y - x[j]) / (x[i]-x[j])
+    }
+}
+
+```
+6. then,
+``` 
+for(i=0; i<n; i++){
+    sum = sum + L[i] * f[i];
+}
+
+```
+7. print interpolation value "sum" at y.
