@@ -13,11 +13,13 @@ some algorithm and code of numerical method
    Output: c (the estimated root)
 
    3.1. Check 
-   ```if f(a) * f(b) >= 0```
-
-   3.2. If true, print "Error: One of the interval endpoints must be negative."
-        Return NaN (Not a Number).
-
+   ```if( f(a) * f(b) >= 0){
+           print "Error: One of the interval endpoints must be negative.";
+            Return NaN (Not a Number).
+   }
+  
+       
+   ```
    3.3. Set c = a
 
    3.4. While (b - a) / b >= error:
@@ -35,7 +37,7 @@ some algorithm and code of numerical method
 
    3.5. Return c as the estimated root.
 
-4. Function Main()
+5. Function Main()
 
    4.1. Declare variables a, b, error, and root.
 
@@ -48,5 +50,5 @@ some algorithm and code of numerical method
        4.4.1. If true, print "Root = " + root.
        4.4.2. Else, print "Error."
 
-5. End
+6. End
 
