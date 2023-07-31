@@ -13,7 +13,8 @@ some algorithm and code of numerical method
    Output: c (the estimated root)
 
    3.1. Check 
-   ```if( f(a) * f(b) >= 0){
+   ```
+   if( f(a) * f(b) >= 0){
            print "Error: One of the interval endpoints must be negative.";
             Return NaN (Not a Number).
    }
